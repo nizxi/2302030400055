@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="ContactUs.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact us</h1>
+        <p>Get in touch with us using the form below.</p>
+        <form>
+            <div class="grid-container">
+                <div>
+                    <label>Name</label>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+                <div>
+                    <label>Surname</label>
+                    <input type="text" placeholder="Enter your surname" required>
+                </div>
+            </div>
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+            
+            <label>Number</label>
+            <div class="phone-container">
+                <select>
+                    <option>GE (+955)</option>
+                </select>
+                <input type="text" placeholder="Enter your phone number" required>
+            </div>
+            
+            <label>Message</label>
+            <textarea placeholder="Type your message here..." rows="5" required></textarea>
+            
+            <div class="checkbox-container">
+                <input type="checkbox" required>
+                <span>By clicking, you agree with our Terms & Conditions</span>
+            </div>
+            <div class="checkbox-container">
+                <input type="checkbox" required>
+                <span>I have read and agree to the Privacy Policy</span>
+            </div>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>
