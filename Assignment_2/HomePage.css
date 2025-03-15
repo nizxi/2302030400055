@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+nav {
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.join-btn {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.personalized-playlist {
+    margin-top: 40px;
+}
+.personalized-playlist h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+.input-group {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.input-group input {
+    padding: 10px;
+    border: 2px solid gray;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+.input-group button {
+    padding: 10px 20px;
+    border: 2px solid black;
+    background: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.musical-emotions {
+    background: linear-gradient(to right, #4f46e5, #9333ea);
+    padding: 50px 0;
+}
+.musical-emotions h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: white;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 40px;
+}
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.card img {
+    width: 100%;
+    border-radius: 20px;
+}
+.card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+.card p {
+    font-size: 14px;
+    color: gray;
+}
+.discover-btn {
+    background: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
