@@ -1,0 +1,3 @@
+Title: Building a Simple Neural Network to Classify Handwritten Digits
+
+Problem Statement: Handwritten digit recognition is a fundamental machine learning problem that involves classifying images of handwritten digits (0-9). The objective is to build and train a simple neural network that can accurately classify these digits using the MNIST dataset. This task is pivotal in understanding the basics of neural networks and deep learning.
