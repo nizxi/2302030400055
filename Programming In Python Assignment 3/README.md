@@ -22,7 +22,7 @@ models: Allows us to stack layers in a Sequential model.
 mnist = tf.keras.datasets.mnist
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
-# Normalize the pixel values to the range [0, 1]
+Normalize the pixel values to the range [0, 1]
 x_train, x_test = x_train / 255.0, x_test / 255.0
 
 mnist.load_data(): Loads the dataset.
